@@ -1,10 +1,10 @@
-def palindrome_check(s):
-    s = s.replace(' ', '').lower()
-    s_reversed = s[::-1]
-    if s == s_reversed:
-        print(True)
+def palindrome_check(string):
+    string = string.replace(' ', '').lower()
+    s_reversed = string[::-1]
+    if string == s_reversed:
+        return print('True')
     else:
-        print('False')
+        return print('False')
 
 
 data = input()
