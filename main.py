@@ -2,9 +2,9 @@ def palindrome_check(string):
     string = string.replace(' ', '').lower()
     s_reversed = string[::-1]
     if string == s_reversed:
-        return print('True')
+        return True
     else:
-        return print('False')
+        return False
 
 
 data = input()
